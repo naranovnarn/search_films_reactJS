@@ -1,0 +1,40 @@
+import React, { useContext } from 'react';
+
+import './search-panel.css';
+import { filmsContext } from '../../context/filmsContext';
+
+export const SearchPanel = () => {
+  
+
+  const {getFilms, state} = useContext(filmsContext);
+
+  // onSearchChange = (e) => {
+  //   const term = e.target.value;
+  //   changeTerm (term)
+  // }
+
+  console.log(state);
+  
+
+  return (
+    <div>
+      <input type='text'
+        className='form-control search-input'
+        placeholder='Введите название фильма'
+        // value={state.term}
+        // onChange={onSearchChange}
+      />
+      <button 
+        className="btn btn-primary"
+        onClick={() => getFilms()}  
+      >
+        ХАХАХА
+      </button>
+    </div>
+  );
+};
+
+
+
+
+

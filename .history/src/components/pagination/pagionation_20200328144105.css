@@ -1,0 +1,12 @@
+div .pagionat{
+  width: 120px;
+  height: 25px;
+  background-color: aqua;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 3px;
+
+}
+
+
