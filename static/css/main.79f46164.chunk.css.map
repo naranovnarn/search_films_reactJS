@@ -1,0 +1,1 @@
+{"version":3,"sources":["pagionation.css","favorite-item.css"],"names":[],"mappings":"AAAA,cAGE,iBAAkB,CAClB,cAAe,CACf,iBACF,CCNA,SACE,UACF","file":"main.79f46164.chunk.css","sourcesContent":["div .pagionat{\r\n  \r\n  margin: 0 auto;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  margin-top: 3px;\r\n}\r\n\r\n\r\n",".clicked {\r\n  opacity: .1;\r\n}"]}
