@@ -36,7 +36,7 @@ export const FilmState = ({children}) => {
   }, [])
 
   const getFilm = (term) => {
-    const URL = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/films.json';
+    const URL = './jsons/films.json';
     fetch(URL)
       .then(data => data.json())
       .then(response => dispatch({
@@ -46,7 +46,7 @@ export const FilmState = ({children}) => {
   }
 
   const getFilmByTage = (tag) => {
-    const URL = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/films.json';
+    const URL = './jsons/films.json';
     fetch(URL)
       .then(data => data.json())
       .then(response => dispatch({

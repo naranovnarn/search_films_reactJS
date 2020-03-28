@@ -9,7 +9,7 @@ import { Favorites } from '../../pages/favorites';
 
 const App = () => {
 
-  console.log('test5');
+  console.log('test');
   
   
   return (
@@ -17,8 +17,8 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path='/search_films_reactJS/' component={Main} />
-          <Route path='/favorites/' component={Favorites} />
+          <Route exact path='/https://naranovnarn.github.io/' component={Main} />
+          <Route path='/favorites' component={Favorites} />
         </Switch>
       </BrowserRouter>
     </FilmState>

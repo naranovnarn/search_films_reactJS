@@ -9,7 +9,7 @@ import { Favorites } from '../../pages/favorites';
 
 const App = () => {
 
-  console.log('test5');
+  console.log('test4');
   
   
   return (

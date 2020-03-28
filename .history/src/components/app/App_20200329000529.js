@@ -18,7 +18,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route exact path='/search_films_reactJS/' component={Main} />
-          <Route path='/favorites/' component={Favorites} />
+          <Route path='/search_films_reactJS/favorites/' component={Favorites} />
         </Switch>
       </BrowserRouter>
     </FilmState>

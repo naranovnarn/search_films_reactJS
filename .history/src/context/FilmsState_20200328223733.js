@@ -17,15 +17,19 @@ export const FilmState = ({children}) => {
 
   useEffect(() => {
 
-    const URL = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/films.json';
-    const URLTAGS = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/tags.json';
+    const URL = 'https://gist.githubusercontent.com/naranovarltan/185dd3eeedc41439c3bfd8091a453050/raw/ec9809327ab2143cddf01e32357f28cb94258001/films.json';
+
+    const URLTAGS = './jsons/tags.json';
 
     fetch(URL)
       .then(data => data.json())
-      .then(response => dispatch({
-        type: GET_FILMS,
-        payload: response
-      }));
+      .then(response => {
+        debugger
+        dispatch({
+          type: GET_FILMS,
+          payload: response
+        })
+      });
 
     fetch(URLTAGS)
       .then(data => data.json())
@@ -36,7 +40,7 @@ export const FilmState = ({children}) => {
   }, [])
 
   const getFilm = (term) => {
-    const URL = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/films.json';
+    const URL = './jsons/films.json';
     fetch(URL)
       .then(data => data.json())
       .then(response => dispatch({
@@ -46,7 +50,7 @@ export const FilmState = ({children}) => {
   }
 
   const getFilmByTage = (tag) => {
-    const URL = 'https://gist.githubusercontent.com/naranovnarn/edf124175a69ded82c68730c108890a2/raw/28449a00b1f72d6d89eb018c36a97639dedf8fc2/films.json';
+    const URL = './jsons/films.json';
     fetch(URL)
       .then(data => data.json())
       .then(response => dispatch({

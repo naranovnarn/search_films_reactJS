@@ -14,7 +14,7 @@ export const Navbar = () => {
             <NavLink exact to="/search_films_reactJS/" className="nav-link">Фильмы</NavLink>
           </li>
           <li className="navbar item">
-            <NavLink to="/favorites/" className="nav-link">Закладки</NavLink>
+            <NavLink to="/search_films_reactJS/favorites/" className="nav-link">Закладки</NavLink>
           </li>
         </ul>
       </nav>
