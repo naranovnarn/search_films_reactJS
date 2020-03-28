@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/search_films_reactJS/static/css/main.79f46164.chunk.css",
-    "main.js": "/search_films_reactJS/static/js/main.1d4bb50f.chunk.js",
-    "main.js.map": "/search_films_reactJS/static/js/main.1d4bb50f.chunk.js.map",
+    "main.js": "/search_films_reactJS/static/js/main.b2b421e6.chunk.js",
+    "main.js.map": "/search_films_reactJS/static/js/main.b2b421e6.chunk.js.map",
     "runtime-main.js": "/search_films_reactJS/static/js/runtime-main.613e886a.js",
     "runtime-main.js.map": "/search_films_reactJS/static/js/runtime-main.613e886a.js.map",
     "static/js/2.1d23e7bb.chunk.js": "/search_films_reactJS/static/js/2.1d23e7bb.chunk.js",
     "static/js/2.1d23e7bb.chunk.js.map": "/search_films_reactJS/static/js/2.1d23e7bb.chunk.js.map",
     "index.html": "/search_films_reactJS/index.html",
-    "precache-manifest.60fd022e2e346b0f2c6f3bf258f606bc.js": "/search_films_reactJS/precache-manifest.60fd022e2e346b0f2c6f3bf258f606bc.js",
+    "precache-manifest.ef01f0e96f2de51762464b25af474288.js": "/search_films_reactJS/precache-manifest.ef01f0e96f2de51762464b25af474288.js",
     "service-worker.js": "/search_films_reactJS/service-worker.js",
     "static/css/main.79f46164.chunk.css.map": "/search_films_reactJS/static/css/main.79f46164.chunk.css.map",
     "static/js/2.1d23e7bb.chunk.js.LICENSE.txt": "/search_films_reactJS/static/js/2.1d23e7bb.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.613e886a.js",
     "static/js/2.1d23e7bb.chunk.js",
     "static/css/main.79f46164.chunk.css",
-    "static/js/main.1d4bb50f.chunk.js"
+    "static/js/main.b2b421e6.chunk.js"
   ]
 }
